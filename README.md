@@ -3,10 +3,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 🚀 NextJS, FirebaseAuth & Tailwindcss with Typescript
 
 📝 Written with TypeScript
+A user can first signup 
+then login to access the complaint registration form
+Handles images in complaint form
 
-🔒 Client-side authentication sample with Credentials/Google Signin
 
-🔒 Server-side authentication with cookies sample
 
 🦚 with Tailwindcss layout
 
@@ -14,40 +15,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+
 npm run dev
-# or
-yarn dev
-```
 
-## Firebase Config
 
-Firebase config: Console > Project settings > General.
 
-Firebase-Admin config: Console > Project settings > Service accounts.
-
-Update `.env`
-
-```bash
-#Firebase-admin
-type=
-project_id=
-private_key_id=
-private_key=
-client_email=
-client_id=
-auth_uri=
-token_uri=
-auth_provider_x509_cert_url=
-client_x509_cert_url=
-
-#firebase
-NEXT_PUBLIC_apiKey=
-NEXT_PUBLIC_authDomain=
-NEXT_PUBLIC_projectId=
-NEXT_PUBLIC_storageBucket=
-NEXT_PUBLIC_messagingSenderId=
-NEXT_PUBLIC_appId=
-```
-
-Enjoy! 🤘
